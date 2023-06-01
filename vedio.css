@@ -1,0 +1,103 @@
+
+
+:root{
+  --bcolor:red;
+
+}
+/* *{
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+body{
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color:skyblue;
+  border-radius: 20px;
+  
+  
+   
+}
+video{
+  width: 100%;
+  height: 80%;
+  
+
+}
+.progress-range{
+  border: 1px solid black;
+  width: 100%;
+  height: 10px;
+  background-color: black;
+  border: 10px;
+  border-radius: 3px;
+}
+
+.progress-bar{
+  border: 1px solid orange;
+  width: 0px;
+  height: 10px;
+  /* background-color: orange; */
+  background-color: var(--bcolor);
+  border-radius: 10px;
+}
+
+.volume-range{
+  border: 1px solid black;
+  width: 150px;
+  height: 7px;
+  background-color: black;
+  border: 10px;
+  border-radius: 3px;
+}
+
+.volume-bar{
+  border: 1px solid orange;
+  width: 40px;
+  height: 7px;
+  /* background-color: orange; */
+  background-color: var(--bcolor);
+  border-radius: 10px;
+}
+
+.volume{
+  display: flex;
+  align-items: center;
+  
+
+}
+.controls-left{
+  display: flex;
+}
+#play,#volume,#volume-range{
+  margin-left:15px ;
+  font-size: 25px;
+  
+}
+
+.controls-right{
+  display: flex;
+  justify-content: end;
+}
+
+.time{
+  display: flex;
+}
+#myspeed,#time,#full-screen{
+  margin-left: 15px;
+  margin-top: -23px;
+}
+
+#play:hover,#volume:hover{
+  color: gray;
+  transition: color 1s;
+}
+
+
+
